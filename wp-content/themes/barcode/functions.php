@@ -146,8 +146,33 @@ function barcode_scripts() {
 	wp_enqueue_style( 'barcode-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'barcode-style', 'rtl', 'replace' );
 
-	wp_enqueue_script( 'barcode-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
+
+//    wp_enqueue_script('jquery');
+    wp_enqueue_script( 'jquery.min.js', get_template_directory_uri() . '/libs/jquery/dist/jquery.min.js');
+    wp_enqueue_script( 'fancybox', get_template_directory_uri() . '/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.js');
+    wp_enqueue_script( 'bodymovin', get_template_directory_uri() . '/libs/bodymovin/build/player/bodymovin.min.js');
+    wp_enqueue_script( 'js.cookie', get_template_directory_uri() . '/libs/js-cookie/src/js.cookie.js');
+    wp_enqueue_script( 'sidebar-sticky', get_template_directory_uri() . '/js/sidebar-sticky.js');
+    wp_enqueue_script( 'waves-effect', get_template_directory_uri() . '/js/waves-effect.js');
+
+    wp_enqueue_script( 'imagesloaded', get_template_directory_uri() . '/js/TiltHoverEffects/imagesloaded.pkgd.min.js');
+    wp_enqueue_script( 'anime', get_template_directory_uri() . '/js/TiltHoverEffects/anime.min.js');
+    wp_enqueue_script( 'main', get_template_directory_uri() . '/js/TiltHoverEffects/main.js');
+
+
+
+
+
+
+
+    wp_enqueue_script( 'barcode-script', get_template_directory_uri() . '/js/common.js');
+
+    $wnm_custom = array( 'stylesheet_directory_uri' => get_stylesheet_directory_uri() );
+    wp_localize_script( 'barcode-script', 'directory_uri', $wnm_custom );
+
+
+	wp_enqueue_script( 'barcode-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
@@ -183,8 +208,10 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 
 
 
-
 add_image_size( 'menu-min', 380, 500 , true );
+add_image_size( 'interior', 335, 265 , true );
+add_image_size( 'news', 520, 320 , true );
+
 
 
 /** Register post type*/
@@ -206,6 +233,8 @@ function register_post_type_menu() {
     $args = array(
         'labels' => $labels,
         'public' => true,
+//        'public' => false,  // it's not public, it shouldn't have it's own permalink, and so on
+//        'publicly_queryable' => true,  // you should be able to query it
         'show_ui' => true, // показывать интерфейс в админке
         'has_archive' => true,
         'taxonomies' => array('category'),
@@ -219,6 +248,71 @@ function register_post_type_menu() {
 
 add_action( 'init', 'register_post_type_menu' ); // Использовать функцию только внутри хука init
 
+function register_post_type_news() {
+    $labels = array(
+        'name' => 'Новости и акции',
+        'singular_name' => 'Новости и акции', // админ панель Добавить->Функцию
+        'add_new' => 'Добавить новости и акции',
+        'add_new_item' => 'Добавить новые новости и акции',
+        'edit_item' => 'Редактировать новости и акции',
+        'new_item' => 'Новая новость и акция',
+        'all_items' => 'Все новости и акции',
+        'view_item' => 'Просмотр новости и акции',
+        'search_items' => 'Искать новости и акции',
+        'not_found' =>  'Новостей и акций не найдено.',
+        'not_found_in_trash' => 'В корзине нет новостей и акций.',
+        'menu_name' => 'Новости и акции' // ссылка в меню в админке
+    );
+    $args = array(
+        'labels' => $labels,
+        'public' => true,
+//        'public' => false,  // it's not public, it shouldn't have it's own permalink, and so on
+//        'publicly_queryable' => true,  // you should be able to query it
+        'show_ui' => true, // показывать интерфейс в админке
+        'has_archive' => true,
+        'taxonomies' => array('category'),
+        //'menu_icon' => get_stylesheet_directory_uri() .'/img/function_icon.png', // иконка в меню
+        'menu_icon' => 'dashicons-excerpt-view', // иконка в меню
+        'menu_position' => 30, // порядок в меню
+        'supports' => array( 'title', 'editor' , 'thumbnail')
+    );
+    register_post_type('news', $args);
+}
+
+add_action( 'init', 'register_post_type_news' ); // Использовать функцию только внутри хука init
+
+
+
+function register_post_type_settings() {
+    $labels = array(
+        'name' => 'Настройки сайта и&nbsp;прочее',
+        'singular_name' => 'Настройки сайта и&nbsp;прочее', // админ панель Добавить->Функцию
+        'add_new' => 'Добавить настройки',
+        'add_new_item' => 'Добавить новые настройки',
+        'edit_item' => 'Редактировать настройки',
+        'new_item' => 'Новые настройки',
+        'all_items' => 'Все настройки',
+        'view_item' => 'Просмотр настроек',
+        'search_items' => 'Искать настройки',
+        'not_found' =>  'Настроек не найдено.',
+        'not_found_in_trash' => 'В корзине нет Настроек.',
+        'menu_name' => 'Настройки сайта и&nbsp;прочее' // ссылка в меню в админке
+    );
+    $args = array(
+        'exclude_from_search' => true,
+        'labels' => $labels,
+        'public' => true,
+        'show_ui' => true, // показывать интерфейс в админке
+        'has_archive' => true,
+        //'menu_icon' => get_stylesheet_directory_uri() .'/img/function_icon.png', // иконка в меню
+        'menu_icon' => 'dashicons-wordpress-alt', // иконка в меню
+        'menu_position' => 29 // порядок в меню
+    ,'supports' => array( '' )
+    );
+    register_post_type('settings', $args);
+}
+
+add_action( 'init', 'register_post_type_settings' ); // Использовать функцию только внутри хука init
 
 
 
@@ -226,115 +320,49 @@ add_action( 'init', 'register_post_type_menu' ); // Использовать ф�
 
 
 
-
-
-
-
-/** AJAX*/
-function true_filter_function(){
-    $query = [
-        'post_type'  => 'menu',
-//        'cat' => 3,
-        'orderby' => 'date',
-        'order'	=> $_POST['date'],
-        'posts_per_page'  => '-1',
-
-        'meta_query' =>  [
-            'relation'=>'AND',
-            [
-                'key' => 'menu-type',
-                'value' => 'osnovnoye'
-            ],
-            [
-//                'key' => 'menu-img-min',
-//                'value' => '', //The value of the field.
-//                'compare' => '!=', //Conditional statement used on the value.
-            ]
-        ]
-    ];
-
-    // для таксономий
-    if( isset( $_POST['categoryfilter'] ) )
-        $query['tax_query'] = array(
-            array(
-                'taxonomy' => 'category',
-                'field' => 'id',
-                'terms' => $_POST['categoryfilter']
-            )
-        );
-
-    // создаём массив $args['meta_query'] если указана хотя бы одна цена или отмечен чекбокс
-    if( ( isset( $_POST['menu-img-min'] ) ) ){
-//        $query['meta_query'] = array( 'relation'=>'AND' );
-    }
-
-
-//    // условие 1: цена больше $_POST['cena_min']
-//    if( isset( $_POST['cena_min'] ) )
-//        $args['meta_query'][] = array(
-//            'key' => 'cena',
-//            'value' => $_POST['cena_min'],
-//            'type' => 'numeric',
-//            'compare' => '>'
-//        );
-//
-//    // условие 2: цена меньше $_POST['cena_max']
-//    if( isset( $_POST['cena_max'] ) )
-//        $args['meta_query'][] = array(
-//            'key' => 'cena',
-//            'value' => $_POST['cena_max'],
-//            'type' => 'numeric',
-//            'compare' => '<'
-//        );
-
-
-
-
-
-
-    // условие 3: миниатюра имеется
-    if( isset( $_POST['menu-img-min'] ) ){
-        $query['meta_query'][] =  [
-            'key' => 'menu-img-min',
-            'value' => '', //The value of the field.
-            'compare' => '!=', //Conditional statement used on the value.
-        ];
-
-    }
-
-
-    $query = new WP_Query($query);
-
-
-    if($query->have_posts()):
-        while($query->have_posts()):
-            $query->the_post();
-            echo '<h2>'; the_title(); echo '</h2>';
-        endwhile;
-        wp_reset_postdata();
-    endif;
-
-
-
-
-
-
-
-    die();
+add_filter( 'site_transient_update_plugins', 'filter_plugin_updates' );
+function filter_plugin_updates( $value ) {
+    unset( $value->response['advanced-custom-fields-pro/acf.php'] );
+    unset( $value->response['ajax-load-more/ajax-load-more.php'] );
+    return $value;
 }
 
 
-add_action('wp_ajax_myfilter', 'true_filter_function');
-add_action('wp_ajax_nopriv_myfilter', 'true_filter_function');
+add_filter ( 'wpcf7_autop_or_not' , '__return_false' );
+add_filter('wpcf7_form_elements', function($content) {
+    $content = preg_replace('/<(span).*?class="\s*(?:.*\s)?wpcf7-form-control-wrap(?:\s[^"]+)?\s*"[^\>]*>(.*)<\/\1>/i', '\2', $content);
+    $content = str_replace('<br />', '', $content);
+    return $content;
+});
 
 
 
 
+add_filter('admin_footer', 'screen_test');
+function screen_test(){
+    $screen = get_current_screen();
+    if($screen->base == 'flamingo_page_flamingo_inbound') {
+        ?>
+        <script>
+            if(document.querySelector('table.message-fields tr:first-of-type td:nth-of-type(2) p')){
+                var str = document.querySelector('table.message-fields tr:first-of-type td:nth-of-type(2) p');
+                newText = str.textContent.replace(/\|/g, '<br>');
+                str.innerHTML = newText;
+                console.log('!');
+            }
+
+        </script>
+        <?php
+    }
+}
 
 
+function edit_admin_menus() {
+    global $menu;
+    global $submenu;
 
-
-
-
-
-
+    if($menu[26][0] == 'Flamingo'){
+        $menu[26][0] = 'Страница заказов';
+    }
+}
+add_action( 'admin_menu', 'edit_admin_menus' );

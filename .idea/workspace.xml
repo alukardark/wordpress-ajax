@@ -1,7 +1,295 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="251eb90a-1a62-40e7-9124-7798d2c0bc78" name="Default" comment="" />
+    <list default="true" id="251eb90a-1a62-40e7-9124-7798d2c0bc78" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/barcode/page-about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/barcode/page-basket.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/barcode/page-contacts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/barcode/page-order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/ajax-load-more/ajax-load-more.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/ajax-load-more/ajax-load-more.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/ajax-load-more/core/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/ajax-load-more/core/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/admin/class-catch-infinite-scroll-admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/admin/css/admin-dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/admin/css/catch-infinite-scroll-admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/admin/images/free-plugin-246x116.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/admin/images/free-theme-246x175.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/admin/images/premium-plugin-246x116.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/admin/images/premium-theme-246x175.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/admin/images/screenshot-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/admin/images/screenshot-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/admin/images/screenshot-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/admin/images/screenshot-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/admin/images/screenshot-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/admin/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/admin/js/catch-infinite-scroll-admin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/admin/js/jquery.matchHeight.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/admin/js/our-themes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/admin/partials/catch-infinite-scroll-admin-display.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/admin/partials/catch-infinite-scroll-display-dashboard.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/admin/partials/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/admin/partials/sidebar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/catch-infinite-scroll.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/image/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/image/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/includes/CatchThemesThemePlugin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/includes/class-catch-infinite-scroll-activator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/includes/class-catch-infinite-scroll-deactivator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/includes/class-catch-infinite-scroll-i18n.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/includes/class-catch-infinite-scroll-loader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/includes/class-catch-infinite-scroll.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/includes/ctp-tabs-removal.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/includes/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/includes/jetpack-compatibility.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/languages/catch-infinite-scroll.pot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/public/class-catch-infinite-scroll-public.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/public/css/catch-infinite-scroll-public.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/public/js/catch-infinite-scroll-public.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/public/partials/catch-infinite-scroll-public-display.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/catch-infinite-scroll/uninstall.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/flamingo/admin/admin-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/flamingo/admin/admin-functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/flamingo/admin/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/flamingo/admin/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/flamingo/admin/css/style-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/flamingo/admin/css/style-rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/flamingo/admin/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/flamingo/admin/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/flamingo/admin/edit-contact-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/flamingo/admin/edit-contact-form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/flamingo/admin/edit-inbound-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/flamingo/admin/edit-inbound-form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/flamingo/admin/edit-outbound-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/flamingo/admin/edit-outbound-form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/flamingo/admin/includes/class-contacts-list-table.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/flamingo/admin/includes/class-contacts-list-table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/flamingo/admin/includes/class-inbound-messages-list-table.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/flamingo/admin/includes/class-inbound-messages-list-table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/flamingo/admin/includes/class-outbound-messages-list-table.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/flamingo/admin/includes/class-outbound-messages-list-table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/flamingo/admin/includes/meta-boxes.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/flamingo/admin/includes/meta-boxes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/flamingo/admin/includes/privacy.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/flamingo/admin/includes/privacy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/flamingo/flamingo.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/flamingo/flamingo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/flamingo/includes/class-contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/flamingo/includes/class-contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/flamingo/includes/class-inbound-message.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/flamingo/includes/class-inbound-message.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/flamingo/includes/class-outbound-message.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/flamingo/includes/class-outbound-message.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/flamingo/includes/comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/flamingo/includes/comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/flamingo/includes/csv.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/flamingo/includes/csv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/flamingo/includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/flamingo/includes/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/flamingo/includes/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/flamingo/includes/user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/flamingo/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/flamingo/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/assets/css/admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/assets/css/frontend.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/assets/images/01-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/assets/images/01-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/assets/images/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/assets/images/02-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/assets/images/02-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/assets/images/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/assets/images/03-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/assets/images/03-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/assets/images/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/assets/images/04-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/assets/images/04-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/assets/images/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/assets/images/05-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/assets/images/05-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/assets/images/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/assets/images/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/assets/images/upgrade.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/assets/images/video-yith-infinite-scrolling.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/assets/js/yith-infs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/assets/js/yith-infs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/assets/js/yith.infinitescroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/assets/js/yith.infinitescroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/includes/class.yith-infs-admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/includes/class.yith-infs-frontend.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/includes/class.yith-infs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/includes/functions.yith-infs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/init.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/languages/yith-infinite-scrolling.pot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/css/admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/css/codemirror/codemirror.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/css/colorbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/css/metaboxes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/css/yit-plugin-panel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/css/yit-upgrade-to-pro.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/css/yit-upgrader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/css/yith-fields.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/css/yith-select2-no-wc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/fonts/yith-icon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/fonts/yith-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/fonts/yith-icon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/fonts/yith-icon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/images/arrow_down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/images/banner-premium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/images/colorbox/border1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/images/colorbox/border2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/images/colorbox/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/images/double-sidebar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/images/licence-error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/images/no-sidebar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/images/sidebar-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/images/sidebar-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/images/sleep.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/images/spinner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/images/ui-icons_454545_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/images/ui-icons_888888_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/images/x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/images/yith-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/images/yithemes-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/codemirror/codemirror.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/codemirror/javascript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/how-to.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/how-to.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/javascript-md5/md5.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/jquery.colorbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/jquery.colorbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/metabox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/metabox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/multisite-updater.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/multisite-updater.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/wp-pages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/wp-pages.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/yit-cpt-unlimited.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/yit-cpt-unlimited.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/yit-plugin-panel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/yit-plugin-panel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/yit-wp-pointer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/yit-wp-pointer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/yith-colorpicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/yith-dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/yith-dashboard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/yith-enhanced-select-wc-2.6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/yith-enhanced-select-wc-2.6.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/yith-enhanced-select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/yith-enhanced-select.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/yith-fields.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/yith-fields.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/yith-gutenberg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/yith-gutenberg.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/yith-promo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/yith-promo.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/yith-system-info.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/yith-system-info.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/yith-update-plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/assets/js/yith-update-plugins.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/init.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/languages/yith-plugin-fw-el.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/languages/yith-plugin-fw-el.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/languages/yith-plugin-fw-es_ES.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/languages/yith-plugin-fw-es_ES.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/languages/yith-plugin-fw-it_IT.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/languages/yith-plugin-fw-it_IT.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/languages/yith-plugin-fw-nl_NL.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/languages/yith-plugin-fw-nl_NL.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/languages/yith-plugin-fw.pot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/lib/privacy/yit-privacy-plugin-abstract.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/lib/privacy/yit-privacy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/lib/promo/black.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/lib/promo/cyber.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/lib/promo/halloween.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/lib/promo/yith-promo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/lib/promo/yith-promo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/lib/yit-ajax.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/lib/yit-assets.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/lib/yit-cpt-unlimited.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/lib/yit-debug.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/lib/yit-icons.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/lib/yit-metabox.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/lib/yit-plugin-common.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/lib/yit-plugin-gradients.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/lib/yit-plugin-licence.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/lib/yit-plugin-panel-wc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/lib/yit-plugin-panel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/lib/yit-plugin-subpanel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/lib/yit-pointers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/lib/yit-theme-licence.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/lib/yit-upgrade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/lib/yit-video.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/lib/yith-dashboard.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/lib/yith-gutenberg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/lib/yith-system-status.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/ajax-customers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/ajax-posts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/ajax-products.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/ajax-terms.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/buttons.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/checkbox-array.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/checkbox.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/colorpicker.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/country-select.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/custom.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/customtabs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/date-format.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/datepicker.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/hidden.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/html.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/icons.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/image-gallery.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/list-table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/multi-colorpicker.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/multi-select.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/number.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/onoff.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/password.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/preview.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/radio.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/resources/select2-wc-2.6.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/resources/select2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/select-buttons.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/select-images.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/select-mailchimp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/select.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/sep.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/sidebarlist.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/sidebars.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/simple-text.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/slider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/text-array.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/text-button.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/text.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/textarea-codemirror.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/textarea-editor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/textarea.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/title.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/toggle-element-fixed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/toggle-element.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/fields/upload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/metaboxes/field-row.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/metaboxes/tab.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/metaboxes/types/icon-list.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/panel/infobox.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/panel/panel-field-container.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/panel/sub-tabs-nav.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/panel/woocommerce/woocommerce-form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/panel/woocommerce/woocommerce-option-row.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/panel/woocommerce/woocommerce-panel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/panel/woocommerce/woocommerce-upload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/privacy/html-policy-content.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/sysinfo/system-information-panel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/upgrade/changelog.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/templates/upgrade/error.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/yit-deactive-plugin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/yit-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/yit-plugin-registration-hook.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/yit-plugin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-fw/yit-woocommerce-compatibility.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-options/general-options.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-options/premium-options.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/plugin-options/video-box.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/templates/admin/premium.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/yith-infinite-scrolling/uninstall.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/barcode/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/barcode/404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/barcode/archive-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/barcode/archive-menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/barcode/archive.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/barcode/archive.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/barcode/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/barcode/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/barcode/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/barcode/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/barcode/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/barcode/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/barcode/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/barcode/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/barcode/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/barcode/page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/barcode/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/barcode/single.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/barcode/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/barcode/style.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,102 +298,200 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="page-basket.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/page-basket.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+              <folding>
+                <element signature="e#1443#5112#0#HTML" />
+                <element signature="e#1496#4414#0#HTML" />
+                <element signature="e#1825#4287#0#HTML" />
+                <element signature="e#4441#5084#0#HTML" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page-contacts.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/page-contacts.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="archive-menu.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/archive-menu.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="783">
+              <caret line="69" column="37" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3679">
+              <caret line="13801" column="1" lean-forward="true" selection-start-line="13606" selection-end-line="13801" selection-end-column="1" />
+              <folding>
+                <element signature="e#82382#82518#2" expanded="true" />
+                <marker date="1596449932099" expanded="true" signature="350527:350565" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page-order.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/page-order.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="208" column="75" selection-start-line="208" selection-start-column="69" selection-end-line="208" selection-end-column="75" />
+              <folding>
+                <element signature="e#2360#9063#0#HTML" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/js/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="104" column="8" lean-forward="true" selection-start-line="96" selection-start-column="7" selection-end-line="104" selection-end-column="8" />
+              <folding>
+                <element signature="n#!!block;n#isEmpty#0" />
+                <element signature="e#90#119#0" />
+                <element signature="n#!!block;n#basketAdd#0" />
+                <element signature="e#348#1558#0" />
+                <element signature="e#463#534#0" />
+                <element signature="e#651#722#0" />
+                <element signature="e#759#806#0" />
+                <element signature="e#812#861#0" />
+                <element signature="e#1634#1693#0" />
+                <element signature="e#1730#1929#0" />
+                <element signature="e#1998#2249#0" />
+                <element signature="e#2561#2672#0" />
+                <element signature="e#2730#2806#0" />
+                <element signature="e#2883#9997#0" />
+                <element signature="e#2976#3098#0" />
+                <element signature="e#3146#3597#0" />
+                <element signature="e#3680#4843#0" />
+                <element signature="e#5195#5593#0" />
+                <element signature="e#5275#5400#0" />
+                <element signature="e#5447#5530#0" />
+                <element signature="e#7345#8990#0" />
+                <element signature="e#8180#8255#0" />
+                <element signature="e#8378#8980#0" />
+                <element signature="e#8736#8959#0" />
+                <element signature="e#9045#9987#0" />
+                <element signature="e#9208#9271#0" />
+                <element signature="e#9761#9968#0" />
+                <element signature="e#10048#10250#0" />
+                <element signature="e#10304#10601#0" />
+                <element signature="e#10465#10505#0" />
+                <element signature="e#10511#10553#0" />
+                <element signature="e#11155#19360#0" />
+                <element signature="e#11209#11285#0" />
+                <element signature="e#11310#17407#0" />
+                <element signature="e#11332#12429#0" />
+                <element signature="e#11356#12419#0" />
+                <element signature="e#11386#11590#0" />
+                <element signature="e#11615#11824#0" />
+                <element signature="e#11851#11997#0" />
+                <element signature="e#12024#12227#0" />
+                <element signature="e#12252#12405#0" />
+                <element signature="e#12439#13271#0" />
+                <element signature="e#12463#13261#0" />
+                <element signature="e#12493#12642#0" />
+                <element signature="e#12669#12883#0" />
+                <element signature="e#12910#13068#0" />
+                <element signature="e#13093#13247#0" />
+                <element signature="e#13281#14087#0" />
+                <element signature="e#13305#14077#0" />
+                <element signature="e#13335#13482#0" />
+                <element signature="e#13509#13660#0" />
+                <element signature="e#13687#13888#0" />
+                <element signature="e#13913#14063#0" />
+                <element signature="e#14097#15091#0" />
+                <element signature="e#14121#15081#0" />
+                <element signature="e#14151#14352#0" />
+                <element signature="e#14377#14535#0" />
+                <element signature="e#14562#14711#0" />
+                <element signature="e#14738#14890#0" />
+                <element signature="e#14915#15067#0" />
+                <element signature="e#15101#15929#0" />
+                <element signature="e#15125#15919#0" />
+                <element signature="e#15150#15301#0" />
+                <element signature="e#15328#15550#0" />
+                <element signature="e#15577#15729#0" />
+                <element signature="e#15754#15905#0" />
+                <element signature="e#15939#16530#0" />
+                <element signature="e#15963#16520#0" />
+                <element signature="e#15993#16143#0" />
+                <element signature="e#16170#16329#0" />
+                <element signature="e#16354#16506#0" />
+                <element signature="e#16540#17406#0" />
+                <element signature="e#16564#17396#0" />
+                <element signature="e#16589#16744#0" />
+                <element signature="e#16771#16974#0" />
+                <element signature="e#17001#17204#0" />
+                <element signature="e#17229#17382#0" />
+                <element signature="e#17429#17658#0" />
+                <element signature="e#17540#17650#0" />
+                <element signature="e#17736#17937#0" />
+                <element signature="e#17843#17929#0" />
+                <element signature="e#17985#18648#0" />
+                <element signature="e#18066#18120#0" />
+                <element signature="e#18694#19357#0" />
+                <element signature="e#18775#18829#0" />
+                <element signature="e#21452#24008#0" />
+                <element signature="e#21707#21827#0" />
+                <element signature="e#21874#22986#0" />
+                <element signature="e#22015#22070#0" />
+                <element signature="e#22133#22313#0" />
+                <element signature="e#22197#22303#0" />
+                <element signature="e#22375#22468#0" />
+                <element signature="e#22636#22690#0" />
+                <element signature="e#23108#23245#0" />
+                <element signature="e#23167#23237#0" />
+                <element signature="e#23306#23658#0" />
+                <element signature="e#23415#23508#0" />
+                <element signature="e#23558#23651#0" />
+                <element signature="e#23713#24001#0" />
+                <element signature="e#23764#23854#0" />
+                <element signature="e#23904#23994#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flamingo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/flamingo/flamingo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class-inbound-message.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/flamingo/includes/class-inbound-message.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-522">
-              <caret line="226" lean-forward="true" selection-start-line="226" selection-end-line="226" />
-              <folding>
-                <element signature="e#150#281#0#PHP" />
-                <element signature="e#330#628#0#PHP" />
-                <element signature="e#659#922#0#PHP" />
-                <element signature="e#1113#1337#0#PHP" />
-                <element signature="e#1377#1547#0#PHP" />
-                <element signature="e#1645#1735#0#PHP" />
-                <element signature="e#1668#1731#1#PHP" />
-                <element signature="e#1740#1852#0#PHP" />
-                <element signature="e#2083#2269#0#PHP" />
-                <element signature="e#2129#2265#0#PHP" />
-                <element signature="e#2186#2260#0#PHP" />
-                <element signature="e#2395#2498#0#PHP" />
-                <element signature="e#2501#2662#0#PHP" />
-                <element signature="e#2541#2658#0#PHP" />
-                <element signature="e#2727#2914#0#PHP" />
-                <element signature="n#barcode_content_width#0;n#!!top" />
-                <element signature="e#3353#3482#0#PHP" />
-                <element signature="n#barcode_widgets_init#0;n#!!top" />
-                <element signature="e#3518#3895#0#PHP" />
-                <element signature="e#3538#3892#1#PHP" />
-                <element signature="e#3954#3992#0#PHP" />
-                <element signature="e#4464#4511#0#PHP" />
-                <element signature="e#4574#4621#0#PHP" />
-                <element signature="e#4684#4755#0#PHP" />
-                <element signature="e#4823#4855#0#PHP" />
-                <element signature="e#4915#4958#0#PHP" />
-                <element signature="e#4959#5055#0#PHP" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="archive-menu.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/archive-menu.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3468">
-              <caret line="193" column="8" selection-start-line="193" selection-end-line="193" selection-end-column="8" />
-              <folding>
-                <element signature="e#1419#1421#0#PHP" expanded="true" />
-                <element signature="e#1223#1295#0#PHP" expanded="true" />
-                <element signature="e#1655#1662#0#PHP" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#4763#4800#0#PHP" expanded="true" />
-                <marker date="1596027825231" expanded="true" signature="2495:4719" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="archive.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/archive.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="931">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
-              <folding>
-                <element signature="e#6#159#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/sidebar.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="42" column="124" lean-forward="true" selection-start-line="42" selection-start-column="124" selection-end-line="42" selection-end-column="124" />
+            <state relative-caret-position="612">
+              <caret line="171" column="73" lean-forward="true" selection-start-line="171" selection-start-column="4" selection-end-line="171" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -114,42 +500,47 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>get_terms</find>
-      <find>script</find>
-      <find>featured_image</find>
-      <find>date</find>
-      <find>true_filter_function</find>
-      <find>meta_query</find>
-      <find>cat</find>
-      <find>$args</find>
-      <find>WP_Query</find>
-      <find>menu-img-min</find>
-      <find>categoryfilter</find>
-      <find>ajaxurl</find>
-      <find>ias</find>
-      <find>meta_compare</find>
-      <find>category</find>
-      <find>movie_listing</find>
-      <find>my_your_id</find>
-      <find>taxonomy</find>
-      <find>single</find>
-      <find>Recent Articles</find>
-      <find>sidebar</find>
-      <find>default</find>
-      <find>template_8</find>
-      <find>click</find>
-      <find>active</find>
-      <find>alm-filter-nav</find>
-      <find>almFilterComplete</find>
-      <find>ajaxloadmore</find>
-      <find>per_page</find>
+      <find>колич</find>
+      <find>basket__product-count</find>
+      <find>$empty_basket</find>
+      <find>non-numeric valu</find>
+      <find>orderString</find>
+      <find>name</find>
+      <find>|</find>
+      <find>admin_footer</find>
+      <find>forEach</find>
+      <find>remove</find>
+      <find>Cookies.remove</find>
+      <find>&lt;a href=&quot;/basket.html&quot; class=&quot;basket__back-btn  waves-effect waves-silver&quot;&gt;Вернуться к корзине&lt;/a&gt;</find>
+      <find>basket__</find>
+      <find>basket__wrap</find>
       <find>value</find>
+      <find>url</find>
+      <find>$(window).on('load',</find>
+      <find>basket--succes</find>
+      <find>$_COOKIE</find>
+      <find>isMobile</find>
+      <find>succes</find>
+      <find>$('.cur-basket').text</find>
+      <find>$('.cur-basket').</find>
+      <find>ajax-loader</find>
+      <find>Flamingo</find>
+      <find>Plugin Name</find>
+      <find>flamingo</find>
+      <find>menu</find>
+      <find>barcode-script</find>
+      <find>basket__order-btn</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>&quot;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\OSPanel\domains\barcode-wp\wp-content\themes\barcode</dir>
+      <dir>C:\OSPanel\domains\barcode-wp\wp-content\themes</dir>
+      <dir>C:\OSPanel\domains\barcode-wp\wp-content\plugins\ajax-load-more\admin</dir>
+      <dir>C:\OSPanel\domains\barcode-wp\wp-content\plugins\ajax-load-more</dir>
+      <dir>C:\OSPanel\domains\barcode-wp\wp-content\plugins\flamingo</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -159,12 +550,36 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/archive-menu.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/barcode/archive.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/barcode/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/barcode/js/libs.min.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/barcode/js/TiltHoverEffects/main.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/barcode/js/sidebar-sticky.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/barcode/404.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/barcode/single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/barcode/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/barcode/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/barcode/archive.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/ajax-load-more/admin/views/repeater-templates.php" />
+        <option value="$PROJECT_DIR$/wp-content/uploads/alm_templates/xxx.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/ajax-load-more/core/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/acf.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/ajax-load-more/ajax-load-more.php" />
+        <option value="$PROJECT_DIR$/wp-content/uploads/alm_templates/default.php" />
+        <option value="$PROJECT_DIR$/wp-content/uploads/alm_templates/news.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/barcode/archive-news.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/barcode/archive-menu.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/barcode/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/barcode/page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/barcode/page-about.php" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/barcode/page-contacts.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/barcode/page-order.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/barcode/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/flamingo/includes/class-inbound-message.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/flamingo/flamingo.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/barcode/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/barcode/data.json" />
+        <option value="$PROJECT_DIR$/wp-content/themes/barcode/js/common.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/barcode/page-basket.php" />
       </list>
     </option>
   </component>
@@ -177,13 +592,17 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/wp-content/plugins/ajax-load-more/package.json" />
+      <path value="$PROJECT_DIR$/wp-content/themes/barcode/libs/@fancyapps/fancybox/package.json" />
+      <path value="$PROJECT_DIR$/wp-content/themes/barcode/libs/bodymovin/package.json" />
+      <path value="$PROJECT_DIR$/wp-content/themes/barcode/libs/jquery/package.json" />
+      <path value="$PROJECT_DIR$/wp-content/themes/barcode/libs/js-cookie/package.json" />
       <path value="$PROJECT_DIR$/wp-content/themes/barcode/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-11" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-12" />
     <option name="width" value="3690" />
-    <option name="height" value="2111" />
+    <option name="height" value="2112" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -191,7 +610,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,15 +617,61 @@
               <item name="barcode-wp" type="b2602c69:ProjectViewProjectNode" />
               <item name="barcode-wp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="barcode-wp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barcode-wp" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barcode-wp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barcode-wp" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barcode-wp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barcode-wp" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barcode-wp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barcode-wp" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="barcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barcode-wp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barcode-wp" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="barcode" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barcode-wp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barcode-wp" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="barcode-wp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barcode-wp" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+              <item name="alm_templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../almazy-yakutii" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../barcode" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -238,33 +702,40 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596000509450</updated>
-      <workItem from="1596000510615" duration="23534000" />
+      <workItem from="1596000510615" duration="24488000" />
+      <workItem from="1596094903091" duration="4220000" />
+      <workItem from="1596171245626" duration="10547000" />
+      <workItem from="1596264613545" duration="10317000" />
+      <workItem from="1596349851352" duration="34058000" />
+      <workItem from="1596431399635" duration="2435000" />
+      <workItem from="1596433995121" duration="14770000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23534000" />
+    <option name="totallyTimeSpent" value="100835000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="2460" height="1407" extended-state="0" />
+    <frame x="-8" y="0" width="2460" height="1408" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32869297" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32869297" />
-      <window_info anchor="right" id="Remote Host" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.215" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32843894" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32843894" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18958333" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -304,34 +775,59 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/.eslintrc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="63" column="58" lean-forward="true" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-settings.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-825">
-          <caret line="43" column="59" lean-forward="true" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
+        <state relative-caret-position="323">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="42" column="124" lean-forward="true" selection-start-line="42" selection-start-column="124" selection-end-line="42" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2432">
+          <caret line="226" lean-forward="true" selection-start-line="226" selection-end-line="226" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/archive-menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/archive.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
+        <state relative-caret-position="817">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#6#159#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -345,13 +841,6 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/sidebar.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="42" column="124" lean-forward="true" selection-start-line="42" selection-start-column="124" selection-end-line="42" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -359,53 +848,368 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="42" column="124" lean-forward="true" selection-start-line="42" selection-start-column="124" selection-end-line="42" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/.eslintrc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/js/libs.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret column="412892" selection-start-column="412892" selection-end-column="412892" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/search.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/js/functions.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/js/TiltHoverEffects/imagesloaded.pkgd.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="568" selection-start-line="6" selection-start-column="562" selection-end-line="6" selection-end-column="568" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/backups-dup-lite/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/js/TiltHoverEffects/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="208" selection-start-line="208" selection-end-line="208" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/js/sidebar-sticky.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="10" selection-start-line="7" selection-start-column="3" selection-end-line="31" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="71" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/uploads/alm_templates/xxx.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/ajax-load-more/admin/views/repeater-templates.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="176" column="25" selection-start-line="176" selection-start-column="25" selection-end-line="176" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/ajax-load-more/ajax-load-more.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/acf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/uploads/alm_templates/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/uploads/alm_templates/news.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="83" selection-start-line="28" selection-start-column="83" selection-end-line="28" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/ajax-load-more/core/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8227">
+          <caret line="439" column="5" selection-start-line="439" selection-start-column="5" selection-end-line="439" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" selection-start-line="32" selection-start-column="32" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/page-about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="44" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="43" column="59" lean-forward="true" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="60" column="42" lean-forward="true" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/archive-news.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/page-contacts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3679">
+          <caret line="13801" column="1" lean-forward="true" selection-start-line="13606" selection-end-line="13801" selection-end-column="1" />
+          <folding>
+            <element signature="e#82382#82518#2" expanded="true" />
+            <marker date="1596449932099" expanded="true" signature="350527:350565" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/flamingo/includes/class-inbound-message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/flamingo/flamingo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret column="52593" selection-start-column="52593" selection-end-column="52593" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-522">
-          <caret line="226" lean-forward="true" selection-start-line="226" selection-end-line="226" />
+        <state relative-caret-position="612">
+          <caret line="171" column="73" lean-forward="true" selection-start-line="171" selection-start-column="4" selection-end-line="171" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="104" column="8" lean-forward="true" selection-start-line="96" selection-start-column="7" selection-end-line="104" selection-end-column="8" />
           <folding>
-            <element signature="e#150#281#0#PHP" />
-            <element signature="e#330#628#0#PHP" />
-            <element signature="e#659#922#0#PHP" />
-            <element signature="e#1113#1337#0#PHP" />
-            <element signature="e#1377#1547#0#PHP" />
-            <element signature="e#1645#1735#0#PHP" />
-            <element signature="e#1668#1731#1#PHP" />
-            <element signature="e#1740#1852#0#PHP" />
-            <element signature="e#2083#2269#0#PHP" />
-            <element signature="e#2129#2265#0#PHP" />
-            <element signature="e#2186#2260#0#PHP" />
-            <element signature="e#2395#2498#0#PHP" />
-            <element signature="e#2501#2662#0#PHP" />
-            <element signature="e#2541#2658#0#PHP" />
-            <element signature="e#2727#2914#0#PHP" />
-            <element signature="n#barcode_content_width#0;n#!!top" />
-            <element signature="e#3353#3482#0#PHP" />
-            <element signature="n#barcode_widgets_init#0;n#!!top" />
-            <element signature="e#3518#3895#0#PHP" />
-            <element signature="e#3538#3892#1#PHP" />
-            <element signature="e#3954#3992#0#PHP" />
-            <element signature="e#4464#4511#0#PHP" />
-            <element signature="e#4574#4621#0#PHP" />
-            <element signature="e#4684#4755#0#PHP" />
-            <element signature="e#4823#4855#0#PHP" />
-            <element signature="e#4915#4958#0#PHP" />
-            <element signature="e#4959#5055#0#PHP" />
+            <element signature="n#!!block;n#isEmpty#0" />
+            <element signature="e#90#119#0" />
+            <element signature="n#!!block;n#basketAdd#0" />
+            <element signature="e#348#1558#0" />
+            <element signature="e#463#534#0" />
+            <element signature="e#651#722#0" />
+            <element signature="e#759#806#0" />
+            <element signature="e#812#861#0" />
+            <element signature="e#1634#1693#0" />
+            <element signature="e#1730#1929#0" />
+            <element signature="e#1998#2249#0" />
+            <element signature="e#2561#2672#0" />
+            <element signature="e#2730#2806#0" />
+            <element signature="e#2883#9997#0" />
+            <element signature="e#2976#3098#0" />
+            <element signature="e#3146#3597#0" />
+            <element signature="e#3680#4843#0" />
+            <element signature="e#5195#5593#0" />
+            <element signature="e#5275#5400#0" />
+            <element signature="e#5447#5530#0" />
+            <element signature="e#7345#8990#0" />
+            <element signature="e#8180#8255#0" />
+            <element signature="e#8378#8980#0" />
+            <element signature="e#8736#8959#0" />
+            <element signature="e#9045#9987#0" />
+            <element signature="e#9208#9271#0" />
+            <element signature="e#9761#9968#0" />
+            <element signature="e#10048#10250#0" />
+            <element signature="e#10304#10601#0" />
+            <element signature="e#10465#10505#0" />
+            <element signature="e#10511#10553#0" />
+            <element signature="e#11155#19360#0" />
+            <element signature="e#11209#11285#0" />
+            <element signature="e#11310#17407#0" />
+            <element signature="e#11332#12429#0" />
+            <element signature="e#11356#12419#0" />
+            <element signature="e#11386#11590#0" />
+            <element signature="e#11615#11824#0" />
+            <element signature="e#11851#11997#0" />
+            <element signature="e#12024#12227#0" />
+            <element signature="e#12252#12405#0" />
+            <element signature="e#12439#13271#0" />
+            <element signature="e#12463#13261#0" />
+            <element signature="e#12493#12642#0" />
+            <element signature="e#12669#12883#0" />
+            <element signature="e#12910#13068#0" />
+            <element signature="e#13093#13247#0" />
+            <element signature="e#13281#14087#0" />
+            <element signature="e#13305#14077#0" />
+            <element signature="e#13335#13482#0" />
+            <element signature="e#13509#13660#0" />
+            <element signature="e#13687#13888#0" />
+            <element signature="e#13913#14063#0" />
+            <element signature="e#14097#15091#0" />
+            <element signature="e#14121#15081#0" />
+            <element signature="e#14151#14352#0" />
+            <element signature="e#14377#14535#0" />
+            <element signature="e#14562#14711#0" />
+            <element signature="e#14738#14890#0" />
+            <element signature="e#14915#15067#0" />
+            <element signature="e#15101#15929#0" />
+            <element signature="e#15125#15919#0" />
+            <element signature="e#15150#15301#0" />
+            <element signature="e#15328#15550#0" />
+            <element signature="e#15577#15729#0" />
+            <element signature="e#15754#15905#0" />
+            <element signature="e#15939#16530#0" />
+            <element signature="e#15963#16520#0" />
+            <element signature="e#15993#16143#0" />
+            <element signature="e#16170#16329#0" />
+            <element signature="e#16354#16506#0" />
+            <element signature="e#16540#17406#0" />
+            <element signature="e#16564#17396#0" />
+            <element signature="e#16589#16744#0" />
+            <element signature="e#16771#16974#0" />
+            <element signature="e#17001#17204#0" />
+            <element signature="e#17229#17382#0" />
+            <element signature="e#17429#17658#0" />
+            <element signature="e#17540#17650#0" />
+            <element signature="e#17736#17937#0" />
+            <element signature="e#17843#17929#0" />
+            <element signature="e#17985#18648#0" />
+            <element signature="e#18066#18120#0" />
+            <element signature="e#18694#19357#0" />
+            <element signature="e#18775#18829#0" />
+            <element signature="e#21452#24008#0" />
+            <element signature="e#21707#21827#0" />
+            <element signature="e#21874#22986#0" />
+            <element signature="e#22015#22070#0" />
+            <element signature="e#22133#22313#0" />
+            <element signature="e#22197#22303#0" />
+            <element signature="e#22375#22468#0" />
+            <element signature="e#22636#22690#0" />
+            <element signature="e#23108#23245#0" />
+            <element signature="e#23167#23237#0" />
+            <element signature="e#23306#23658#0" />
+            <element signature="e#23415#23508#0" />
+            <element signature="e#23558#23651#0" />
+            <element signature="e#23713#24001#0" />
+            <element signature="e#23764#23854#0" />
+            <element signature="e#23904#23994#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/archive-menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3468">
-          <caret line="193" column="8" selection-start-line="193" selection-end-line="193" selection-end-column="8" />
+        <state relative-caret-position="783">
+          <caret line="69" column="37" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/page-order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="208" column="75" selection-start-line="208" selection-start-column="69" selection-end-line="208" selection-end-column="75" />
           <folding>
-            <element signature="e#1419#1421#0#PHP" expanded="true" />
-            <element signature="e#1223#1295#0#PHP" expanded="true" />
-            <element signature="e#1655#1662#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#4763#4800#0#PHP" expanded="true" />
-            <marker date="1596027825231" expanded="true" signature="2495:4719" ph="..." />
+            <element signature="e#2360#9063#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/page-basket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding>
+            <element signature="e#1443#5112#0#HTML" />
+            <element signature="e#1496#4414#0#HTML" />
+            <element signature="e#1825#4287#0#HTML" />
+            <element signature="e#4441#5084#0#HTML" />
           </folding>
         </state>
       </provider>

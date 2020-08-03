@@ -472,16 +472,25 @@ function alm_get_default_repeater() {
 	// Allow user to load template from theme directory
 	// Since 2.8.5
 
+
+
+    if(get_post_type() == 'news'){
+        $page = "/news.php";
+    }else{
+        $page = "/default.php";
+    }
+
+
     // load repeater template from current theme folder
 	if(is_child_theme()){
-		$template_theme_file = get_stylesheet_directory().'/'. $template_dir .'/default.php';
+		$template_theme_file = get_stylesheet_directory().'/'. $template_dir .$page;
 		// if child theme does not have repeater template, then use the parent theme dir
 		if(!file_exists($template_theme_file)){
-			$template_theme_file = get_template_directory().'/'. $template_dir .'/default.php';
+			$template_theme_file = get_template_directory().'/'. $template_dir .$page;
 		}
 	}
 	else{
-		$template_theme_file = get_template_directory().'/'. $template_dir .'/default.php';
+		$template_theme_file = get_template_directory().'/'. $template_dir .$page;
 	}
 	// if theme or child theme contains the template, use that file
 	if(file_exists($template_theme_file)){
@@ -491,7 +500,7 @@ function alm_get_default_repeater() {
 	// Since 2.0
 	// Updated 3.5
 	if($file == null){
-   	$file = AjaxLoadMore::alm_get_repeater_path() .'/default.php';
+   	$file = AjaxLoadMore::alm_get_repeater_path() .$page;
 	}
 
 	return $file;

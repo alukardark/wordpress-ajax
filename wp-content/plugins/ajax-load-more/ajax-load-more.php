@@ -7,7 +7,7 @@ Text Domain: ajax-load-more
 Author: Darren Cooney
 Twitter: @KaptonKaos
 Author URI: https://connekthq.com
-Version: 5.3.6
+Version: 1000000005.3.6
 License: GPL
 Copyright: Darren Cooney & Connekt Media
 */
