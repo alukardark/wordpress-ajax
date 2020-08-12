@@ -47,7 +47,8 @@ $query = get_posts([
                         <div class="basket__header-wrap">
                             <h1>Корзина</h1>
 
-                            <div class="basket__remove-btn  waves-effect waves-silver">Очистить корзину</div>
+                            <div class="basket__remove-btn d-none d-md-flex waves-effect waves-silver">Очистить корзину</div>
+                            <div class="basket__remove-btn d-md-none waves-effect waves-silver">Очистить</div>
                         </div>
 
                     </div>
@@ -88,13 +89,17 @@ $query = get_posts([
                                     <div class="basket__product-col">
                                         <div class="basket__product-price">
                                             <div class="basket__product-price-title">За порцию</div>
-                                            <span><?=number_format(get_field('menu-price'), 0, '', ' ' )?></span>&nbsp;руб.
+                                            <span><?=number_format(get_field('menu-price'), 0, '', ' ' )?></span>
+                                            <div class="d-none d-md-inline">&nbsp;руб.</div>
+                                            <div class="d-md-none basket__currency-mobile">р.</div>
                                         </div>
                                     </div>
                                     <div class="basket__product-col">
                                         <div class="basket__product-price-total">
                                             <div class="basket__product-price-title">Сумма</div>
-                                            <span></span>&nbsp;руб.
+                                            <span></span>
+                                            <div class="d-none d-md-inline">&nbsp;руб.</div>
+                                            <div class="d-md-none basket__currency-mobile">р.</div>
                                         </div>
                                     </div>
 

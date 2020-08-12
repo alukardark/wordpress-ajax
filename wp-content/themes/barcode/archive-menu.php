@@ -33,12 +33,12 @@
                             <div class="col-md-12">
                                 <div class="menu__wrap">
 
-                                    <div class="menu__aside" id="aside1">
-                                        <ul class="alm-filter-nav menu__nav">
+                                    <div class="menu__aside swiper-container" id="aside1">
+                                        <ul class="alm-filter-nav menu__nav swiper-wrapper">
                                             <?
                                             if ($terms = get_terms('category', 'orderby=name&hide_empty=1&exclude=1')) :
                                                 foreach ($terms as $term) : ?>
-                                                    <li><a href="#" data-repeater="default-1" data-category="<?= $term->slug ?>"
+                                                    <li class="swiper-slide"><a href="#" data-repeater="default-1" data-category="<?= $term->slug ?>"
                                                            data-meta_relation="AND"><?= $term->name ?></a></li>
                                                 <?
                                                 endforeach;

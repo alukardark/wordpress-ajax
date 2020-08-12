@@ -7,7 +7,7 @@ $(window).on('load', function () {
 });
 
 function isEmpty(obj) {
-    for (let key in obj) {
+    for (var key in obj) {
         return false;
     }
     return true;
@@ -61,12 +61,36 @@ function basketAdd(){
         $('.cur-basket').html(JSON.parse(Cookies.get('basketSum')));
 
 
-        console.log(Cookies.get('basketSum'));
-        console.log(Cookies.get('products'));
     });
 }
 
 jQuery(document).ready(function ($) {
+
+    $('.burger').click(function(){
+        $('body').toggleClass('modal-open');
+        $('.burger').toggleClass('active');
+        $('.header__mobile').toggleClass('active');
+    });
+
+
+
+
+
+
+    if (window.matchMedia('(max-width: 920px)').matches) {
+        $('.menu__base li').click(function(){
+            $('.menu__base li').removeClass('active');
+            $(this).toggleClass('active');
+
+            $(this).prependTo('.menu__base');
+        });
+        $('.menu__base').click(function(){
+            $(this).toggleClass('active');
+        });
+    }
+
+
+
 
 
     if ($('#map').length > 0) {
@@ -77,6 +101,8 @@ jQuery(document).ready(function ($) {
         $('.header__nav').addClass('d-none');
         $('.header').removeClass('header--black');
         $('.footer').addClass('position-absolute');
+        $('.burger').addClass('d-none');
+        $('.header__logo').css('pointer-events', 'none');
     }
 
 
@@ -94,15 +120,6 @@ jQuery(document).ready(function ($) {
 
 
 
-    // if ($('#bm').length > 0) {
-    //     var animation = bodymovin.loadAnimation({
-    //         container: document.getElementById('bm'),
-    //         renderer: 'svg',
-    //         loop: false,
-    //         autoplay: true,
-    //         path: directory_uri.stylesheet_directory_uri+'/data.json'
-    //     });
-    // }
 
     $('.menu__nav a').click(function (e) {
         e.preventDefault();
@@ -298,7 +315,6 @@ jQuery(document).ready(function ($) {
     });
 
 
-    console.log(Cookies.get('products'));
 
 
 
@@ -588,9 +604,9 @@ jQuery(function($){
         }
 
         if(parent.parentNode.classList.contains('clickable')){
-            if(document.querySelector('.menu__nav li.active')){
-                document.querySelector('.menu__nav li.active').classList.remove('active');
-            }
+            // if(document.querySelector('.menu__nav li.active')){
+                document.querySelector('.menu__nav li').classList.remove('active');
+            // }
         }
 
         alm_is_animating = true; // Animation flag
@@ -653,6 +669,153 @@ jQuery(function($){
 
 
 });
+
+
+
+
+
+
+
+$(document).ready(function() {
+
+
+    // var userAgent = navigator.userAgent.toLowerCase();
+    //
+    // var Mozila = /firefox/.test(userAgent);
+    // var Chrome = /chrome/.test(userAgent);
+    // var Safari = /safari/.test(userAgent);
+    // var Opera  = /opera/.test(userAgent);
+    // var InternetExplorer = false;
+    // if((/mozilla/.test(userAgent) && !/firefox/.test(userAgent) && !/chrome/.test(userAgent) && !/safari/.test(userAgent) && !/opera/.test(userAgent)) || /msie/.test(userAgent))
+    //     InternetExplorer = true;
+    //
+    //
+    // if(Mozila){
+    //     var onLoadEvent = true;
+    //     var onLoadEvent = false;
+    // }else{
+    //     var onLoadEvent = false;
+    // }
+
+     if(window.location.pathname=='/'){
+        var timeout = true;
+        var timeoutCountdown = 1500;
+        var onLoadEvent = false;
+    }else{
+        var timeout = true;
+        var timeoutCountdown = '';
+        var onLoadEvent = false;
+    }
+
+
+
+
+    $('.animsition-overlay').animsition({
+        inClass: 'overlay-slide-in-top',
+        outClass: 'overlay-slide-out-top',
+        overlay : true,
+        overlayClass : 'animsition-overlay-slide',
+        overlayParentElement : 'body',
+
+
+
+        inDuration: 1500,
+        outDuration: 800,
+        // linkElement: '.animsition-link',
+        linkElement: 'a:not([target="_blank"]):not([href^="#"]):not([href^="tel:"]):not([href^="mailto:"]):not([href^="javascript"]):not([data-fancybox])',
+        loading: true,
+        loadingParentElement: 'body', //animsition wrapper element
+        loadingClass: 'animsition-loading',
+        // loadingInner: '', // e.g '<img src="loading.svg" />'
+        // loadingInner: '<img src="loading.svg" class="xxxxxxxxxx" id="bm">',
+        timeout: timeout,
+        timeoutCountdown: timeoutCountdown,
+        onLoadEvent: onLoadEvent,
+        browser: [ 'animation-duration', '-webkit-animation-duration'],
+        // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+        // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+        // transition: function(url){ window.location.href = url; }
+    })
+        .one('animsition.inStart',function(){
+            $('body').removeClass('bg-init');
+        })
+        .one('animsition.inEnd',function(){
+        })
+        .one('animsition.outStart',function(){
+        })
+        .one('animsition.outEnd',function(){
+        });
+
+    if(window.location.pathname=='/'){
+        var animation = bodymovin.loadAnimation({
+            // container: document.getElementById('bm'),
+            container: document.querySelector('.animsition-loading'),
+            renderer: 'svg',
+            loop: false,
+            autoplay: true,
+            path: directory_uri.stylesheet_directory_uri+'/data.json'
+        });
+    }
+
+
+
+
+
+    if (document.querySelector('.menu__aside.swiper-container')) {
+        var howFindSwiper1 = undefined;
+
+
+        function initNewsSwiper() {
+            var w=window,
+                d=document,
+                e=d.documentElement,
+                g=d.getElementsByTagName('body')[0],
+                x=w.innerWidth||e.clientWidth||g.clientWidth,
+                y=w.innerHeight||e.clientHeight||g.clientHeight;
+
+
+            if (x < 768 && howFindSwiper1 == undefined) {
+                howFindSwiper1 = new Swiper(".menu__aside.swiper-container", {
+                    slidesPerView: 'auto',
+                    spaceBetween: 0,
+                    slideToClickedSlide: true,
+                    freeMode: true,
+                    // centeredSlides: true,
+                    on: {
+                        touchEnd: function () {
+                            if( document.querySelector('.menu__aside .swiper-slide-active a') !== null){
+                                document.querySelector('.menu__aside .swiper-slide-active a').click();
+                            }
+                        },
+                        transitionEnd: function () {
+                            if(document.querySelector('.menu__aside .swiper-slide-active a') !== null){
+                                // document.querySelector('.menu__aside .swiper-slide-active a').click();
+                            }
+
+                        },
+                    }
+                });
+
+            } else if (x > 920 && howFindSwiper1 != undefined) {
+                howFindSwiper1.destroy();
+                howFindSwiper1 = undefined;
+                document.querySelector('.menu__aside .swiper-wrapper').removeAttribute('style');
+                document.querySelector('.menu__aside .swiper-slide').removeAttribute('style');
+            }
+        }
+
+
+        window.addEventListener('resize', function () {
+            initNewsSwiper();
+        }, true);
+
+
+        initNewsSwiper();
+    }
+
+    $("input[type='tel']").inputmask({"mask": "+7(999) 999-9999"});
+});
+
 
 
 

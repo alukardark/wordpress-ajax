@@ -8,11 +8,11 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class('bg-init'); ?>>
 <?php wp_body_open(); ?>
 
 
-<div class="wrapper">
+<div class="wrapper animsition-overlay">
     <div class="wrapper-content">
         <div class="header header--black">
             <div class="container-fluid">
@@ -20,14 +20,35 @@
                     <div class="col-md-12">
                         <div class="header__wrap">
                             <div class="header__nav-wrap">
-                                <a href="/" class="header__logo"></a>
-                                <ul class="header__nav">
-                                    <li><a href="/menu/">Меню</a></li>
-                                    <li><a href="/about/">О баре</a></li>
-                                    <li><a href="/news/">Новости и акции</a></li>
-                                    <li><a href="/delivery/">Условия доставки</a></li>
-                                    <li><a href="/contacts/">Как нас найти</a></li>
-                                </ul>
+                                <div class="header__logo-wrap">
+                                    <div class="burger">
+                                        <span></span>
+                                    </div>
+                                    <a href="/" class="header__logo"></a>
+                                </div>
+                                <div class="header__mobile">
+                                    <div class="header__mobile-cont">
+                                        <ul class="header__nav">
+                                            <li><a href="/menu/"">Меню</a></li>
+                                            <li><a href="/about/">О баре</a></li>
+                                            <li><a href="/news/">Новости и акции</a></li>
+                                            <li><a href="/delivery/">Условия доставки</a></li>
+                                            <li><a href="/contacts/">Как нас найти</a></li>
+                                        </ul>
+
+                                        <ul class="header__soc">
+                                            <li><a href="#" target="_blank" class="main-menu__soc--inst  btn-default waves-effect waves-light"></a>
+                                            </li>
+                                            <li><a href="#" target="_blank" class="main-menu__soc--facebook  btn-default waves-effect waves-light"></a>
+                                            </li>
+                                            <li><a href="#" target="_blank" class="main-menu__soc--tripadvisor  btn-default waves-effect waves-light"></a>
+                                            </li>
+                                        </ul>
+                                        <div class="burger">
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="header__btns">
                                 <a href="tel:<?=get_field('settings-tel', 94)?>" class="header__tel"><?=get_field('settings-tel', 94)?></a>

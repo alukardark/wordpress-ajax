@@ -31,15 +31,19 @@ get_header();
                             </ul>
                             <ul class="main-menu__soc">
                                 <? if(get_field('settings-inst', 94)){ ?>
-                                    <li><a href="<?=get_field('settings-inst', 94)?>" class="main-menu__soc--inst  btn-default waves-effect waves-light"></a></li>
+                                    <li><a target="_blank" href="<?=get_field('settings-inst', 94)?>" class="main-menu__soc--inst  btn-default waves-effect waves-light"></a></li>
                                 <? } ?>
 
                                 <? if(get_field('settings-facebook', 94)){ ?>
-                                    <li><a href="<?=get_field('settings-facebook', 94)?>" class="main-menu__soc--facebook  btn-default waves-effect waves-light"></a></li>
+                                    <li><a target="_blank" href="<?=get_field('settings-facebook', 94)?>" class="main-menu__soc--facebook  btn-default waves-effect waves-light"></a></li>
                                 <? } ?>
 
                                 <? if(get_field('settings-tripadvisor', 94)){ ?>
-                                    <li><a href="<?=get_field('settings-tripadvisor', 94)?>" class="main-menu__soc--tripadvisor  btn-default waves-effect waves-light"></a></li>
+                                    <li><a target="_blank" href="<?=get_field('settings-tripadvisor', 94)?>" class="main-menu__soc--tripadvisor  btn-default waves-effect waves-light"></a></li>
+                                <? } ?>
+
+                                 <? if(get_field('settings-vk', 94)){ ?>
+                                    <li><a target="_blank" href="<?=get_field('settings-vk', 94)?>" class="main-menu__soc--vk  btn-default waves-effect waves-light"></a></li>
                                 <? } ?>
 
 

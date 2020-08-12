@@ -147,17 +147,24 @@ function barcode_scripts() {
 	wp_style_add_data( 'barcode-style', 'rtl', 'replace' );
 
 
+    wp_enqueue_style( 'animsition.css', get_template_directory_uri() . '/libs/animsition/animsition.css');
+
+
 
 //    wp_enqueue_script('jquery');
     wp_enqueue_script( 'jquery.min.js', get_template_directory_uri() . '/libs/jquery/dist/jquery.min.js');
     wp_enqueue_script( 'fancybox', get_template_directory_uri() . '/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.js');
     wp_enqueue_script( 'bodymovin', get_template_directory_uri() . '/libs/bodymovin/build/player/bodymovin.min.js');
     wp_enqueue_script( 'js.cookie', get_template_directory_uri() . '/libs/js-cookie/src/js.cookie.js');
+    wp_enqueue_script( 'swiper', get_template_directory_uri() . '/libs/swiper/dist/js/swiper.min.js');
     wp_enqueue_script( 'sidebar-sticky', get_template_directory_uri() . '/js/sidebar-sticky.js');
     wp_enqueue_script( 'waves-effect', get_template_directory_uri() . '/js/waves-effect.js');
+    wp_enqueue_script( 'Inputmask', get_template_directory_uri() . '/libs/Inputmask/dist/jquery.inputmask.min.js');
+
 
     wp_enqueue_script( 'imagesloaded', get_template_directory_uri() . '/js/TiltHoverEffects/imagesloaded.pkgd.min.js');
     wp_enqueue_script( 'anime', get_template_directory_uri() . '/js/TiltHoverEffects/anime.min.js');
+    wp_enqueue_script( 'animsition.js', get_template_directory_uri() . '/libs/animsition/animsition.js');
     wp_enqueue_script( 'main', get_template_directory_uri() . '/js/TiltHoverEffects/main.js');
 
 
@@ -329,11 +336,11 @@ function filter_plugin_updates( $value ) {
 
 
 add_filter ( 'wpcf7_autop_or_not' , '__return_false' );
-add_filter('wpcf7_form_elements', function($content) {
-    $content = preg_replace('/<(span).*?class="\s*(?:.*\s)?wpcf7-form-control-wrap(?:\s[^"]+)?\s*"[^\>]*>(.*)<\/\1>/i', '\2', $content);
-    $content = str_replace('<br />', '', $content);
-    return $content;
-});
+//add_filter('wpcf7_form_elements', function($content) {
+//    $content = preg_replace('/<(span).*?class="\s*(?:.*\s)?wpcf7-form-control-wrap(?:\s[^"]+)?\s*"[^\>]*>(.*)<\/\1>/i', '\2', $content);
+//    $content = str_replace('<br />', '', $content);
+//    return $content;
+//});
 
 
 

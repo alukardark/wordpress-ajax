@@ -66,11 +66,24 @@ if(!$_COOKIE['products']){
 
     } wp_reset_postdata();
 
+
     ?>
     <script>
         $(window).on('load', function () {
             var $dataString =  "<?php echo $dataString ?>";
+
+            var basket = "<?php echo $_COOKIE['basketSum'] ?>";
+            basket = parseInt(basket.replace(/['" ]+/g, ''));
+
+            var deliveryPrice = "<?php echo get_field('settings-delivery-price', 94) ?>";
+            deliveryPrice = parseInt(deliveryPrice);
+
+            var totalSum = basket+deliveryPrice;
+
             document.querySelector('input#orderString').value=$dataString;
+            document.querySelector('input#basketSum').value=basket;
+            document.querySelector('input#deliverySum').value=deliveryPrice;
+            document.querySelector('input#totalSum').value=totalSum;
         });
     </script>
 <? } ?>
@@ -206,7 +219,7 @@ if(!$_COOKIE['products']){
                                 </div>
 
 
-                                <a href="#" class="basket__order-btn submit  waves-effect waves-light">Офомить заказ</a>
+                                <a href="#" class="basket__order-btn submit  waves-effect waves-light">Оформить заказ</a>
                             </div>
 
 

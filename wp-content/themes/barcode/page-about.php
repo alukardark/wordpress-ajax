@@ -33,7 +33,7 @@ get_header();
                             <div class="about__interior-gallery">
 
                                 <? foreach (get_field('about-gallery') as $item) { ?>
-                                    <a href="<?= $item['url'] ?>" data-fancybox="interior">
+                                    <a href="<?= $item['url'] ?>" data-fancybox="interior" data-loop="true">
                                         <img src="<?= $item['sizes']['interior'] ?>" alt="">
                                     </a>
 
