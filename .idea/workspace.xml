@@ -5,14 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/barcode/archive-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/barcode/archive-menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/barcode/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/barcode/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/barcode/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/barcode/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/barcode/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/barcode/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/barcode/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/barcode/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/barcode/page-about.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/barcode/page-about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/barcode/page-basket.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/barcode/page-basket.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/barcode/page-contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/barcode/page-contacts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/barcode/page-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/barcode/page-order.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/barcode/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/barcode/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,24 +23,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="6308">
               <caret line="338" selection-start-line="338" selection-start-column="2" selection-end-line="342" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page-contacts.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/page-contacts.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="77" column="51" lean-forward="true" selection-start-line="77" selection-start-column="51" selection-end-line="77" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="93" selection-start-line="26" selection-start-column="93" selection-end-line="26" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -78,174 +54,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="archive-menu.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="archive-menu.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/archive-menu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="2128">
+              <caret line="158" column="10" selection-start-line="158" selection-start-column="10" selection-end-line="158" selection-end-column="10" />
               <folding>
                 <element signature="e#0#5#0#PHP" />
-                <element signature="e#269#291#0#HTML" expanded="true" />
-                <element signature="e#632#898#0#HTML" />
-                <element signature="e#753#756#0#PHP" />
-                <element signature="e#836#839#0#PHP" />
-                <element signature="e#2496#5077#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/js/common.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="586" column="41" selection-start-line="586" selection-start-column="32" selection-end-line="586" selection-end-column="41" />
-              <folding>
-                <element signature="e#33#198#0" />
-                <element signature="e#87#194#0" />
-                <element signature="n#!!block;n#isEmpty#0" />
-                <element signature="e#251#280#0" />
-                <element signature="n#!!block;n#basketAdd#0" />
-                <element signature="e#509#1626#0" />
-                <element signature="e#624#695#0" />
-                <element signature="e#812#883#0" />
-                <element signature="e#920#967#0" />
-                <element signature="e#973#1022#0" />
-                <element signature="e#1668#11536#0" />
-                <element signature="e#1704#1852#0" />
-                <element signature="e#1918#2226#0" />
-                <element signature="e#1964#2120#0" />
-                <element signature="e#2164#2218#0" />
-                <element signature="e#2262#2321#0" />
-                <element signature="e#2358#2656#0" />
-                <element signature="e#2725#2976#0" />
-                <element signature="e#3024#3135#0" />
-                <element signature="e#3193#3269#0" />
-                <element signature="e#3346#10460#0" />
-                <element signature="e#3439#3561#0" />
-                <element signature="e#3609#4060#0" />
-                <element signature="e#4143#5306#0" />
-                <element signature="e#5364#7749#0" />
-                <element signature="e#5658#6056#0" />
-                <element signature="e#5738#5863#0" />
-                <element signature="e#5910#5993#0" />
-                <element signature="e#7137#7739#0" />
-                <element signature="e#7495#7718#0" />
-                <element signature="e#7808#9453#0" />
-                <element signature="e#8643#8718#0" />
-                <element signature="e#8841#9443#0" />
-                <element signature="e#9199#9422#0" />
-                <element signature="e#9508#10450#0" />
-                <element signature="e#9671#9734#0" />
-                <element signature="e#10224#10431#0" />
-                <element signature="e#10511#10713#0" />
-                <element signature="e#10767#11064#0" />
-                <element signature="e#10928#10968#0" />
-                <element signature="e#10974#11016#0" />
-                <element signature="e#11603#12304#0" />
-                <element signature="e#11650#12302#0" />
-                <element signature="e#12005#12289#0" />
-                <element signature="e#12376#12495#0" />
-                <element signature="e#12423#12493#0" />
-                <element signature="e#12545#20750#0" />
-                <element signature="e#12599#12675#0" />
-                <element signature="e#12700#18797#0" />
-                <element signature="e#12722#13819#0" />
-                <element signature="e#12746#13809#0" />
-                <element signature="e#12776#12980#0" />
-                <element signature="e#13005#13214#0" />
-                <element signature="e#13241#13387#0" />
-                <element signature="e#13414#13617#0" />
-                <element signature="e#13642#13795#0" />
-                <element signature="e#13829#14661#0" />
-                <element signature="e#13853#14651#0" />
-                <element signature="e#13883#14032#0" />
-                <element signature="e#14059#14273#0" />
-                <element signature="e#14300#14458#0" />
-                <element signature="e#14483#14637#0" />
-                <element signature="e#14671#15477#0" />
-                <element signature="e#14695#15467#0" />
-                <element signature="e#14725#14872#0" />
-                <element signature="e#14899#15050#0" />
-                <element signature="e#15077#15278#0" />
-                <element signature="e#15303#15453#0" />
-                <element signature="e#15487#16481#0" />
-                <element signature="e#15511#16471#0" />
-                <element signature="e#15541#15742#0" />
-                <element signature="e#15767#15925#0" />
-                <element signature="e#15952#16101#0" />
-                <element signature="e#16128#16280#0" />
-                <element signature="e#16305#16457#0" />
-                <element signature="e#16491#17319#0" />
-                <element signature="e#16515#17309#0" />
-                <element signature="e#16540#16691#0" />
-                <element signature="e#16718#16940#0" />
-                <element signature="e#16967#17119#0" />
-                <element signature="e#17144#17295#0" />
-                <element signature="e#17329#17920#0" />
-                <element signature="e#17353#17910#0" />
-                <element signature="e#17383#17533#0" />
-                <element signature="e#17560#17719#0" />
-                <element signature="e#17744#17896#0" />
-                <element signature="e#17930#18796#0" />
-                <element signature="e#17954#18786#0" />
-                <element signature="e#17979#18134#0" />
-                <element signature="e#18161#18364#0" />
-                <element signature="e#18391#18594#0" />
-                <element signature="e#18619#18772#0" />
-                <element signature="e#18819#19048#0" />
-                <element signature="e#18930#19040#0" />
-                <element signature="e#19126#19327#0" />
-                <element signature="e#19233#19319#0" />
-                <element signature="e#19375#20038#0" />
-                <element signature="e#19456#19510#0" />
-                <element signature="e#20084#20747#0" />
-                <element signature="e#20165#20219#0" />
-                <element signature="e#20835#20861#0" />
-                <element signature="e#21343#21398#0" />
-                <element signature="e#21461#21640#0" />
-                <element signature="e#21963#22017#0" />
-                <element signature="e#22435#22572#0" />
-                <element signature="e#22494#22564#0" />
-                <element signature="e#22633#22985#0" />
-                <element signature="e#22742#22835#0" />
-                <element signature="e#22885#22978#0" />
-                <element signature="e#23040#23328#0" />
-                <element signature="e#23091#23181#0" />
-                <element signature="e#23231#23321#0" />
-                <element signature="e#23382#23435#0" />
-                <element signature="e#24084#24189#0" />
-                <element signature="e#24193#24296#0" />
-                <element signature="e#24339#25575#0" />
-                <element signature="e#24933#24988#0" />
-                <element signature="e#25252#25382#0" />
-                <element signature="e#25621#25678#0" />
-                <element signature="e#25722#25733#0" />
-                <element signature="e#25780#25791#0" />
-                <element signature="e#25836#25847#0" />
-                <element signature="e#25889#26237#0" />
-                <element signature="e#25939#26229#0" />
-                <element signature="e#26309#28216#0" />
-                <element signature="e#26387#28076#0" />
-                <element signature="e#26718#27723#0" />
-                <element signature="e#26797#27706#0" />
-                <element signature="e#27031#27688#0" />
-                <element signature="e#27079#27344#0" />
-                <element signature="e#27184#27318#0" />
-                <element signature="e#27397#27665#0" />
-                <element signature="e#27501#27638#0" />
-                <element signature="e#27773#28066#0" />
-                <element signature="e#28133#28174#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="718">
-              <caret line="14607" lean-forward="true" selection-start-line="14607" selection-end-line="14607" />
+            <state relative-caret-position="338">
+              <caret line="14661" column="22" lean-forward="true" selection-start-line="14661" selection-start-column="22" selection-end-line="14661" selection-end-column="22" />
               <folding>
                 <element signature="e#36#56#0" />
                 <element signature="e#84#105#0" />
@@ -4154,7 +3979,6 @@
                 <element signature="e#356572#356619#0" />
                 <element signature="e#356688#356706#0" />
                 <element signature="e#356728#357165#0" />
-                <element signature="e#357188#357333#0" />
                 <element signature="e#357361#357403#0" />
                 <element signature="e#357405#357673#0" />
                 <element signature="e#357455#357563#0" />
@@ -4239,8 +4063,39 @@
                 <element signature="e#367257#367283#0" />
                 <element signature="e#367287#367376#0" />
                 <element signature="e#367342#367374#0" />
-                <element signature="e#366929#366990#0" />
-                <element signature="e#367011#367031#0" />
+                <element signature="e#367394#367455#0" />
+                <element signature="e#367476#367496#0" />
+                <element signature="e#367520#367562#0" />
+                <element signature="e#367587#367662#0" />
+                <element signature="e#367690#367881#0" />
+                <element signature="e#367913#367931#0" />
+                <element signature="e#367957#368089#0" />
+                <element signature="e#368092#368325#0" />
+                <element signature="e#368147#368174#0" />
+                <element signature="e#368200#368234#0" />
+                <element signature="e#368262#368323#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page-contacts.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/page-contacts.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="187" selection-start-line="24" selection-start-column="187" selection-end-line="24" selection-end-column="187" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/js/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="511">
+              <caret line="631" column="7" lean-forward="true" selection-start-line="631" selection-start-column="7" selection-end-line="631" selection-end-column="7" />
+              <folding>
+                <element signature="n#!!block;n#isEmpty#0" />
+                <element signature="n#!!block;n#basketAdd#0" />
               </folding>
             </state>
           </provider>
@@ -4250,7 +4105,7 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/footer.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -4259,27 +4114,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>__soc</find>
-      <find>main-menu</find>
-      <find>soc--inst</find>
-      <find>target=&quot;_blank&quot;</find>
-      <find>--facebook</find>
-      <find>active</find>
-      <find>map</find>
-      <find>menu__list</find>
-      <find>991px</find>
-      <find>.matchMedia</find>
-      <find>window.matchMedia</find>
-      <find>max-width</find>
-      <find>--inst</find>
-      <find>menu__base</find>
-      <find>clickable</find>
-      <find>cf</find>
-      <find>tel:</find>
-      <find>href=&quot;tel:</find>
-      <find>data-fancybox=&quot;interior&quot;</find>
-      <find>Офомить заказ</find>
-      <find>.about__row</find>
       <find>form</find>
       <find>wpcf7_form_elements</find>
       <find>tel</find>
@@ -4288,7 +4122,28 @@
       <find>modal</find>
       <find>data-fancybox</find>
       <find>menu__aside swiper-container</find>
+      <find>category</find>
+      <find>data-fancybox-close</find>
+      <find>years</find>
+      <find>data-category=&quot;</find>
+      <find>data-meta-value</find>
+      <find>swiper</find>
+      <find>meta_relation</find>
+      <find>kokteylnaya-karta</find>
+      <find>category__not_in</find>
+      <find>data-meta-value=</find>
+      <find>data-repeater</find>
       <find>alm-filter-nav</find>
+      <find>alm-filter-nav clickable menu__base</find>
+      <find>clickable</find>
+      <find>swiper-slide</find>
+      <find>class</find>
+      <find>button.addEventListener('click', filterClick);</find>
+      <find>filterClick</find>
+      <find>each</find>
+      <find>classList</find>
+      <find>contacts__col-wrap</find>
+      <find>ckground: url</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -4336,10 +4191,10 @@
         <option value="$PROJECT_DIR$/wp-content/themes/barcode/page-about.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/barcode/page-order.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/barcode/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/barcode/archive-menu.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/barcode/js/common.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/barcode/page-contacts.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/barcode/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/barcode/archive-menu.php" />
       </list>
     </option>
   </component>
@@ -4378,6 +4233,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -4428,7 +4284,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -4474,12 +4329,14 @@
       <workItem from="1596522088659" duration="19603000" />
       <workItem from="1596599602041" duration="3225000" />
       <workItem from="1597048078667" duration="3315000" />
-      <workItem from="1597227736870" duration="3000000" />
+      <workItem from="1597227736870" duration="12572000" />
+      <workItem from="1597307992445" duration="7000" />
+      <workItem from="1597309264561" duration="1686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129978000" />
+    <option name="totallyTimeSpent" value="141243000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="2182" height="1408" extended-state="0" />
@@ -4490,9 +4347,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32843894" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32791957" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32766616" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14844486" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15127239" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -4541,7 +4398,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -4791,13 +4648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode-res/page-contacts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -4833,168 +4683,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/page-contacts.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/archive-menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="77" column="51" lean-forward="true" selection-start-line="77" selection-start-column="51" selection-end-line="77" selection-end-column="51" />
+        <state relative-caret-position="2128">
+          <caret line="158" column="10" selection-start-line="158" selection-start-column="10" selection-end-line="158" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#5#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode-res/page-contacts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="586" column="41" selection-start-line="586" selection-start-column="32" selection-end-line="586" selection-end-column="41" />
+        <state relative-caret-position="511">
+          <caret line="631" column="7" lean-forward="true" selection-start-line="631" selection-start-column="7" selection-end-line="631" selection-end-column="7" />
           <folding>
-            <element signature="e#33#198#0" />
-            <element signature="e#87#194#0" />
             <element signature="n#!!block;n#isEmpty#0" />
-            <element signature="e#251#280#0" />
             <element signature="n#!!block;n#basketAdd#0" />
-            <element signature="e#509#1626#0" />
-            <element signature="e#624#695#0" />
-            <element signature="e#812#883#0" />
-            <element signature="e#920#967#0" />
-            <element signature="e#973#1022#0" />
-            <element signature="e#1668#11536#0" />
-            <element signature="e#1704#1852#0" />
-            <element signature="e#1918#2226#0" />
-            <element signature="e#1964#2120#0" />
-            <element signature="e#2164#2218#0" />
-            <element signature="e#2262#2321#0" />
-            <element signature="e#2358#2656#0" />
-            <element signature="e#2725#2976#0" />
-            <element signature="e#3024#3135#0" />
-            <element signature="e#3193#3269#0" />
-            <element signature="e#3346#10460#0" />
-            <element signature="e#3439#3561#0" />
-            <element signature="e#3609#4060#0" />
-            <element signature="e#4143#5306#0" />
-            <element signature="e#5364#7749#0" />
-            <element signature="e#5658#6056#0" />
-            <element signature="e#5738#5863#0" />
-            <element signature="e#5910#5993#0" />
-            <element signature="e#7137#7739#0" />
-            <element signature="e#7495#7718#0" />
-            <element signature="e#7808#9453#0" />
-            <element signature="e#8643#8718#0" />
-            <element signature="e#8841#9443#0" />
-            <element signature="e#9199#9422#0" />
-            <element signature="e#9508#10450#0" />
-            <element signature="e#9671#9734#0" />
-            <element signature="e#10224#10431#0" />
-            <element signature="e#10511#10713#0" />
-            <element signature="e#10767#11064#0" />
-            <element signature="e#10928#10968#0" />
-            <element signature="e#10974#11016#0" />
-            <element signature="e#11603#12304#0" />
-            <element signature="e#11650#12302#0" />
-            <element signature="e#12005#12289#0" />
-            <element signature="e#12376#12495#0" />
-            <element signature="e#12423#12493#0" />
-            <element signature="e#12545#20750#0" />
-            <element signature="e#12599#12675#0" />
-            <element signature="e#12700#18797#0" />
-            <element signature="e#12722#13819#0" />
-            <element signature="e#12746#13809#0" />
-            <element signature="e#12776#12980#0" />
-            <element signature="e#13005#13214#0" />
-            <element signature="e#13241#13387#0" />
-            <element signature="e#13414#13617#0" />
-            <element signature="e#13642#13795#0" />
-            <element signature="e#13829#14661#0" />
-            <element signature="e#13853#14651#0" />
-            <element signature="e#13883#14032#0" />
-            <element signature="e#14059#14273#0" />
-            <element signature="e#14300#14458#0" />
-            <element signature="e#14483#14637#0" />
-            <element signature="e#14671#15477#0" />
-            <element signature="e#14695#15467#0" />
-            <element signature="e#14725#14872#0" />
-            <element signature="e#14899#15050#0" />
-            <element signature="e#15077#15278#0" />
-            <element signature="e#15303#15453#0" />
-            <element signature="e#15487#16481#0" />
-            <element signature="e#15511#16471#0" />
-            <element signature="e#15541#15742#0" />
-            <element signature="e#15767#15925#0" />
-            <element signature="e#15952#16101#0" />
-            <element signature="e#16128#16280#0" />
-            <element signature="e#16305#16457#0" />
-            <element signature="e#16491#17319#0" />
-            <element signature="e#16515#17309#0" />
-            <element signature="e#16540#16691#0" />
-            <element signature="e#16718#16940#0" />
-            <element signature="e#16967#17119#0" />
-            <element signature="e#17144#17295#0" />
-            <element signature="e#17329#17920#0" />
-            <element signature="e#17353#17910#0" />
-            <element signature="e#17383#17533#0" />
-            <element signature="e#17560#17719#0" />
-            <element signature="e#17744#17896#0" />
-            <element signature="e#17930#18796#0" />
-            <element signature="e#17954#18786#0" />
-            <element signature="e#17979#18134#0" />
-            <element signature="e#18161#18364#0" />
-            <element signature="e#18391#18594#0" />
-            <element signature="e#18619#18772#0" />
-            <element signature="e#18819#19048#0" />
-            <element signature="e#18930#19040#0" />
-            <element signature="e#19126#19327#0" />
-            <element signature="e#19233#19319#0" />
-            <element signature="e#19375#20038#0" />
-            <element signature="e#19456#19510#0" />
-            <element signature="e#20084#20747#0" />
-            <element signature="e#20165#20219#0" />
-            <element signature="e#20835#20861#0" />
-            <element signature="e#21343#21398#0" />
-            <element signature="e#21461#21640#0" />
-            <element signature="e#21963#22017#0" />
-            <element signature="e#22435#22572#0" />
-            <element signature="e#22494#22564#0" />
-            <element signature="e#22633#22985#0" />
-            <element signature="e#22742#22835#0" />
-            <element signature="e#22885#22978#0" />
-            <element signature="e#23040#23328#0" />
-            <element signature="e#23091#23181#0" />
-            <element signature="e#23231#23321#0" />
-            <element signature="e#23382#23435#0" />
-            <element signature="e#24084#24189#0" />
-            <element signature="e#24193#24296#0" />
-            <element signature="e#24339#25575#0" />
-            <element signature="e#24933#24988#0" />
-            <element signature="e#25252#25382#0" />
-            <element signature="e#25621#25678#0" />
-            <element signature="e#25722#25733#0" />
-            <element signature="e#25780#25791#0" />
-            <element signature="e#25836#25847#0" />
-            <element signature="e#25889#26237#0" />
-            <element signature="e#25939#26229#0" />
-            <element signature="e#26309#28216#0" />
-            <element signature="e#26387#28076#0" />
-            <element signature="e#26718#27723#0" />
-            <element signature="e#26797#27706#0" />
-            <element signature="e#27031#27688#0" />
-            <element signature="e#27079#27344#0" />
-            <element signature="e#27184#27318#0" />
-            <element signature="e#27397#27665#0" />
-            <element signature="e#27501#27638#0" />
-            <element signature="e#27773#28066#0" />
-            <element signature="e#28133#28174#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/page-contacts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="187" selection-start-line="24" selection-start-column="187" selection-end-line="24" selection-end-column="187" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="14607" lean-forward="true" selection-start-line="14607" selection-end-line="14607" />
+        <state relative-caret-position="338">
+          <caret line="14661" column="22" lean-forward="true" selection-start-line="14661" selection-start-column="22" selection-end-line="14661" selection-end-column="22" />
           <folding>
             <element signature="e#36#56#0" />
             <element signature="e#84#105#0" />
@@ -8903,7 +8637,6 @@
             <element signature="e#356572#356619#0" />
             <element signature="e#356688#356706#0" />
             <element signature="e#356728#357165#0" />
-            <element signature="e#357188#357333#0" />
             <element signature="e#357361#357403#0" />
             <element signature="e#357405#357673#0" />
             <element signature="e#357455#357563#0" />
@@ -8988,23 +8721,17 @@
             <element signature="e#367257#367283#0" />
             <element signature="e#367287#367376#0" />
             <element signature="e#367342#367374#0" />
-            <element signature="e#366929#366990#0" />
-            <element signature="e#367011#367031#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/barcode/archive-menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#5#0#PHP" />
-            <element signature="e#269#291#0#HTML" expanded="true" />
-            <element signature="e#632#898#0#HTML" />
-            <element signature="e#753#756#0#PHP" />
-            <element signature="e#836#839#0#PHP" />
-            <element signature="e#2496#5077#0#PHP" expanded="true" />
+            <element signature="e#367394#367455#0" />
+            <element signature="e#367476#367496#0" />
+            <element signature="e#367520#367562#0" />
+            <element signature="e#367587#367662#0" />
+            <element signature="e#367690#367881#0" />
+            <element signature="e#367913#367931#0" />
+            <element signature="e#367957#368089#0" />
+            <element signature="e#368092#368325#0" />
+            <element signature="e#368147#368174#0" />
+            <element signature="e#368200#368234#0" />
+            <element signature="e#368262#368323#0" />
           </folding>
         </state>
       </provider>

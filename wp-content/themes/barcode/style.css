@@ -14602,3 +14602,79 @@ a.waves-effect .waves-ripple {
 .wpcf7-not-valid-tip{
   display: none;
 }
+
+.menu__nav a.destroyed{
+  pointer-events: none;
+  opacity: .5;
+}
+
+.fancy-modal--proof-age{
+  background: #F3ECE4;
+  padding: 40px 25px 30px;
+  text-align: center;
+}
+
+
+.fancy-modal--proof-age a{
+  width: 70px;
+  height: 70px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-family: "Bebas Neue";
+}
+.fancy-modal--proof-age a:hover{
+  color: #fff;
+}
+
+.alm-filter-nav--destroy{
+  display: flex;
+  justify-content: space-between;
+  max-width: 180px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media (max-width: 767px) {
+  .alm-filter-nav--destroy {
+    max-width: 160px;
+  }
+  .fancy-modal--proof-age{
+    padding: 30px 25px 20px;
+  }
+  .fancy-modal--proof-age a{
+    width: 55px;
+    height: 55px;
+    font-size: 21px;
+  }
+}
+
+
+.contacts__tel-2 a{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.whatsapp-ico{
+  display: block;
+  width: 30px;
+  height: 30px;
+  /*background: url(img/iconmonstr-whatsapp-4.svg) center/contain no-repeat;*/
+  background: url(img/whatsapp.svg) center/contain no-repeat;
+  margin-left: 20px;
+}
+.viber-ico{
+  display: block;
+  width: 30px;
+  height: 30px;
+  /*background: url(img/iconmonstr-viber-4.svg) center/contain no-repeat;*/
+  background: url(img/viber.svg) center/contain no-repeat;
+  margin-left: 10px;
+}

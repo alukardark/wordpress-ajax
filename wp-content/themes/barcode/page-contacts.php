@@ -21,6 +21,12 @@ get_header();
                 <div class="contacts__col-wrap">
                     <a href="tel:<?=get_field('settings-tel', 94)?>" class="contacts__tel"><?=get_field('settings-tel', 94)?></a>
 
+                    <div class="contacts__tel-2">
+                        <a href="tel:<?=get_field('settings-tel-2', 94)?>" class="contacts__tel"><?=get_field('settings-tel-2', 94)?><i class="whatsapp-ico"></i> <i class="viber-ico"></i></a>
+                    </div>
+
+
+
                     <div class="contacts__address">
                         <?=get_field('settings-address', 94)?>
                     </div>
